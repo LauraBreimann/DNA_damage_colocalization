@@ -11,10 +11,10 @@ dir = getDirectory("Select a directory containing one or several ."+extension+" 
 output = getDirectory("Select a directory to save the output files");
 
 // create new subfolders to dave the split images
-splitDir_DAPI= output + "/DAPI/"
-splitDir_C1= output + "/C1/"
-splitDir_C2= output + "/C2/"
-splitDir_C3= output + "/C3/"
+splitDir_DAPI= output + "/DAPI/" ;
+splitDir_C1= output + "/C1/" ;
+splitDir_C2= output + "/C2/" ;
+splitDir_C3= output + "/C3/" ;
 File.makeDirectory(splitDir_DAPI); 
 File.makeDirectory(splitDir_C1); 
 File.makeDirectory(splitDir_C2); 
